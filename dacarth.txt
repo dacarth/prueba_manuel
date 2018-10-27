@@ -1,0 +1,89 @@
+    1  clear
+    2  pwd
+    3  mkdir fedesoft
+    4  cd fedesoft
+    5  mkdir proyectos
+    6  pwd
+    7  cd ..
+    8  tree
+    9  pwd
+   10  cd fedesoft
+   11  ll
+   12  cd proyectos
+   13  .vcode
+   14  . vcode
+   15  . code
+   16  cd fedesoft
+   17  cd proyectos
+   18  code .
+   19  git /?
+   20  man git
+   21  clear
+   22  git init
+   23  git remote add origin https://github.com/memenendezo/Fedesoft_clase4.git
+   24  git push -u origin master
+   25  vi LEAME
+   26  git remote add https://github.com/memenendezo/Fedesoft_clase4.git
+   27  git remote add origin https://github.com/memenendezo/Fedesoft_clase4.git
+   28  git remote add github  https://github.com/memenendezo/Fedesoft_clase4.git
+   29  git remote -v
+   30  git status
+   31  git config --global user.name "Manuel Menendez"
+   32  git config --global user.email "memenendezo@gmail.com"
+   33  git config --global list
+   34  git config --list
+   35  yes
+   36  clear
+   37  history
+   38  git commit -m "primera prueba"
+   39  git status
+   40  git add
+   41  git add .
+   42  git commit -m "primera prueba"
+   43  git status
+   44  git push -u github master
+   45  ssh-keygen -t rsa -b 4096  -C "lolo"
+   46  more /home/memenendezo/.ssh/id_rsa.pub
+   47  more /home/memenendezo/.ssh/id_rsa.priv
+   48  more /home/memenendezo/.ssh/id_rsa.rsa
+   49  more /home/memenendezo/.ssh/id_rsa
+   50  cat /home/memenendezo/.ssh/id_rsa
+   51  cat /home/memenendezo/.ssh/id_rsa.pub
+   52  cd \\nquit
+   53  cd ..
+   54  ll
+   55  mkdir clones
+   56  cd clones
+   57  git clone https://github.com/pmecheverrys/fullstack.git
+   58  cd ..
+   59  cd proyectos
+   60  \n\ngit log --graph --oneline --all\n
+   61  \n\ngit log --graph  --all\n
+   62  cd ..
+   63  cd clonados
+   64  mkdir clonados
+   65  cd clonados
+   66  git clone https://github.com/pmecheverrys/fullstack.git
+   67  git clone https://github.com/pmecheverryr/fullstack.git
+   68  ll
+   69  cd fullstack
+   70  code index.html
+   71  git status
+   72  git add .
+   73  git commit  -m "mi contribucion"
+   74  git commit push
+   75  git commit push .
+   76  git  push 
+   77  cd ..
+   78  mkdir dacarth
+   79  cd dacarth
+   80  git clone https://github.com/dacarth/prueba_manuel.git
+   81  ll
+   82  cd prueba_manuel
+   83  ll
+   84  git status
+   85  vi ejemplo1.html 
+   86  git add .
+   87  git commit -m "listo mi profe"
+   88  git push
+   89  history
